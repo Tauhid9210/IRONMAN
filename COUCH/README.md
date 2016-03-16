@@ -1,6 +1,5 @@
 
 OLA-Demo
-
 Some parts of this documentation require knowledge about CouchDB IDs, revisions, and views.
 
 [![Travis build status](https://travis-ci.org/rwitzel/CouchRepository.svg)](https://travis-ci.org/rwitzel/CouchRepository)
