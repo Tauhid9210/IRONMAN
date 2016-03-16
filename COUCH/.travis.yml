@@ -1,0 +1,15 @@
+language: java
+jdk:
+  - oraclejdk8
+  - oraclejdk7
+#  - openjdk7
+#  - openjdk6
+
+services:
+  - couchdb
+
+before_install:
+ - chmod +x gradlew
+ 
+after_success:
+  - mvn clean test jacoco:report coveralls:report -Pcoverage
